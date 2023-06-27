@@ -20,10 +20,75 @@ a{
 }
 
 .input-field input[type=text]:focus {
-  border-bottom: 1px solid #de0db4 !important;
-  box-shadow: 0 1px 0 0 #de0db4 !important;
+  border-bottom: 1px solid #6d0b3f !important;
+  box-shadow: 0 1px 0 0 #6d0b3f !important;
+}
+
+.login-btn{
+  /* color: #6d0b3f; */
+  background-color: #c2185b;
 }
 
 .blue-link{
   color: blue !important;
 }
+
+.profile{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.profile-info-section{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.profile-picture{
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+}
+
+.profile-numbers{
+  display: flex;
+  justify-content: space-between;
+}
+.profile-numbers p{
+  font-size: large;
+}
+.num-data{
+  font-weight: bold;
+}
+
+.username{
+  font-weight: bold;
+}
+.name-bio p{
+  margin: 0;
+}
+
+.profile-picture-section{
+  height: 180px;
+}
+.profile-detail-section{
+  height: 180px;
+}
+.profile-info-section{
+  border-bottom: 1px solid gray;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.gallery-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.post{
+  width: 30%;
+}
+
+/* 735 */

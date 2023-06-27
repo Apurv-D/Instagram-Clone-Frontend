@@ -8,7 +8,7 @@ const Login = () => {
         <h2 className="brand-logo">Instagram</h2>
         <input type="text" name="email" placeholder="Email" />
         <input type="text" name="password" placeholder="Password" />
-        <button className="btn" type="submit" name="action">
+        <button className="btn login-btn" type="submit" name="action">
           Submit
         </button>
         <br></br>
